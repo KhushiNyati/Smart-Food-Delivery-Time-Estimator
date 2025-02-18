@@ -1,4 +1,5 @@
 Smart-Food-Delivery-Time-Estimator
+
 Introduction 
 
 Running a food delivery service comes with the challenge of keeping customers happy by delivering their meals on time and in good condition despite hurdles like traffic or bad weather, which can throw off the schedule unpredictably.
@@ -7,11 +8,15 @@ To address this issue effectively, we have developed a Food Delivery Time Predic
 
 We have also developed a Command Line Interface (CLI) to allow users to input food delivery parameters and get delivery time predictions. This tool provides an estimate of the food delivery time within specific ranges:
 
-Very Quick: ≤ 15 minutes
-Quick: 15–30 minutes
-Moderate: 30–45 minutes
-Slow: 45–60 minutes
-Very Slow: ≥ 60 minutes
+  -Very Quick: ≤ 15 minutes
+  
+  -Quick: 15–30 minutes
+  
+  -Moderate: 30–45 minutes
+  
+  -Slow: 45–60 minutes
+  
+  -Very Slow: ≥ 60 minutes
 
 ==============================
 
