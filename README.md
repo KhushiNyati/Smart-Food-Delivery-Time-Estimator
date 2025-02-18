@@ -70,6 +70,49 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+Setting up Datasets
+
+The datasets used in this project are available on Kaggle. Place the dataset files in the datasets/ directory.
+
+Data Preprocessing
+
+The preprocessing steps include:
+
+Standardizing columns into appropriate formats: strings, integers, and floats.
+Converting order date to datetime format.
+Extracting time from Time Ordered and Time Order Picked.
+Dropping rows with null values.
+Encoding categorical variables using label encoding.
+Feature Selection
+Features were selected using SelectKBest to retain only the most significant predictors, as implemented in kbest.py.
+
+Model Improvement
+The following techniques were applied to improve model performance:
+
+Hyperparameter Tuning: Using GridSearchCV to optimize model parameters.
+Command Line Interface (CLI)
+To use the CLI for predictions:
+
+Navigate to the project directory.
+Run the CLI script:
+python main.py
+Follow the prompts to input the delivery parameters and obtain predictions.
+
+Model Evaluation Results
+Model	MSE	R² Score
+Linear Regression	42.80	0.51
+Decision Tree	41.14	0.53
+Decision Tree (Bagging)	21.67	0.75
+Random Forest	21.21	0.75
+Elastic Net Regularization	47.35	0.46
+LightGBM	16.88	0.80
+XGBoost	18.41	0.79
+The developed LightGBM model demonstrates promising accuracy and generalization capabilities, facilitating informed decision-making in the food delivery space to predict delivery time.
+
+Conclusion
+
+The LightGBM model demonstrates high accuracy and generalization, making it the most suitable for delivery time predictions in this context.
+
 
 --------
 
