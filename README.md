@@ -74,7 +74,7 @@ Project Organization
 The datasets used in this project are available on **Kaggle**.  
 Place the dataset files in the **datasets/** directory before running the model.  
 
-## 🛠️ Data Preprocessing  
+##  Data Preprocessing  
 
 The preprocessing steps include:  
 1. Standardizing columns into appropriate formats: **strings, integers, and floats**.  
@@ -118,7 +118,7 @@ Follow the promptsto input the delivery parametersna dobtain predictions.
 
 The developed **LightGBM model** demonstrates promising accuracy and generalization capabilities, making it a reliable choice for **predicting delivery times** in food delivery services.  
 
-## 🏁 Conclusion  
+##  Conclusion  
 
 The **LightGBM model** achieves the high accuracy and strong generalization, making it the **most suitable model** for predicting food delivery times effectively.  
 
