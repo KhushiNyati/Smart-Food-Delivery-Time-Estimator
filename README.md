@@ -101,3 +101,24 @@ To use the CLI for predictions:
 2. Run the CLI script:  
    ```bash
    python main.py
+
+Follow the promptsto input the delivery parametersna dobtain predictions.
+
+## Model Evaluation Results  
+
+| Model                        | MSE   | R² Score |
+|------------------------------|-------|----------|
+| **Linear Regression**        | 42.80 | 0.51     |
+| **Decision Tree**            | 41.14 | 0.53     |
+| **Decision Tree (Bagging)**  | 21.67 | 0.75     |
+| **Random Forest**            | 21.21 | 0.75     |
+| **Elastic Net Regularization** | 47.35 | 0.46     |
+| **LightGBM**                 | 16.88 | 0.80     |
+| **XGBoost**                  | 18.41 | 0.79     |
+
+The developed **LightGBM model** demonstrates promising accuracy and generalization capabilities, making it a reliable choice for **predicting delivery times** in food delivery services.  
+
+## 🏁 Conclusion  
+
+The **LightGBM model** achieves the high accuracy and strong generalization, making it the **most suitable model** for predicting food delivery times effectively.  
+
