@@ -116,6 +116,30 @@ Follow the prompts to input the delivery parameters and obtain predictions.
 | **LightGBM**                 | 16.88 | 0.80     |
 | **XGBoost**                  | 18.41 | 0.79     |
 
+swiggy.csv - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/swiggy.csv
+
+Food_Delivery_Data_Cleaning - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Data_Cleaning.ipynb
+
+Food_Delivery_EDA.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_EDA.ipynb
+
+Data_Clean_Utils.py - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Data_Clean_Utils.py
+
+Food_Delivery_Baseline_Model.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Baseline_Model.ipynb
+
+Food_Delivery_Exp_1_drop_vs_impute - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/notebooks/Food_Delivery_Exp_1_drop_vs_impute.ipynb
+
+Food_Delivery_Exp_2_drop_vs_impute - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/notebooks/Food_Delivery_Exp_2_missing_indicator.ipynb
+
+Food_Delivery_LGBM_HP_Tuning - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/notebooks/Food_Delivery_LGBM_HP_Tuning.ipynb
+
+Food_Delivery_RF_HP_Tuning - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/notebooks/Food_Delivery_RF_HP_Tuning.ipynb
+
+Food_Delivery_Stacking_Regressor_HP_Tuning - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/notebooks/Food_Delivery_Stacking_Regressor_HP_Tuning.ipynb
+
+Food_Delivery_Model_Selection - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/notebooks/Food_Delivery_Model_Selection.ipynb
+
+Food_Delivery_Final_Estimator - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/notebooks/Food_Delivery_Final_Estimator.ipynb
+
 The developed **LightGBM model** demonstrates promising accuracy and generalization capabilities, making it a reliable choice for **predicting delivery times** in food delivery services.  
 
 ##  Conclusion  
