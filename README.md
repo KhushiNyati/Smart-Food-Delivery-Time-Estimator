@@ -101,7 +101,3 @@ To use the CLI for predictions:
 2. Run the CLI script:  
    ```bash
    python main.py
-
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
