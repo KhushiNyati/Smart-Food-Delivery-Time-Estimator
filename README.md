@@ -1,8 +1,6 @@
-Smart-Food-Delivery-Time-Estimator
+# Smart-Food-Delivery-Time-Estimator
 
-# 🍽️ Food Delivery Time Prediction System  
-
-## 📌 Introduction  
+##  Introduction  
 
 Running a food delivery service comes with the challenge of keeping customers happy by ensuring their meals arrive on time and in good condition. However, factors like traffic congestion and bad weather can cause unpredictable delays, affecting the delivery schedule.  
 
@@ -10,11 +8,11 @@ To address this challenge, we have developed a **Food Delivery Time Prediction S
 
 Additionally, we have built a **Command Line Interface (CLI)** that allows users to input key delivery parameters and receive estimated delivery times. The system categorizes delivery time predictions into the following ranges:  
 
-- **🚀 Very Quick:** ≤ 15 minutes  
-- **⚡ Quick:** 15–30 minutes  
-- **⏳ Moderate:** 30–45 minutes  
-- **🐢 Slow:** 45–60 minutes  
-- **🛑 Very Slow:** ≥ 60 minutes  
+- ** Very Quick:** ≤ 15 minutes  
+- ** Quick:** 15–30 minutes  
+- ** Moderate:** 30–45 minutes  
+- ** Slow:** 45–60 minutes  
+- ** Very Slow:** ≥ 60 minutes  
 
 This tool helps food delivery services optimize logistics, improve customer satisfaction, and enhance operational efficiency.  
 
