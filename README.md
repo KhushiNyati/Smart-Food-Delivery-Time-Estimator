@@ -69,71 +69,38 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
-Setting up Datasets
+##  Setting Up Datasets  
 
-The datasets used in this project are available on Kaggle. Place the dataset files in the datasets/ directory.
+The datasets used in this project are available on **Kaggle**.  
+Place the dataset files in the **datasets/** directory before running the model.  
 
-Data Preprocessing
+## 🛠️ Data Preprocessing  
 
-The preprocessing steps include:
-     1 Standardizing columns into appropriate formats: strings, integers, and floats.
-     
-     2 Converting order date to datetime format.
-     
-     3 Extracting time from Time Ordered and Time Order Picked.
-     
-     4 Dropping rows with null values.
-     
-     5 Encoding categorical variables using label encoding.
-     
+The preprocessing steps include:  
+1. Standardizing columns into appropriate formats: **strings, integers, and floats**.  
+2. Converting **order date** to `datetime` format.  
+3. Extracting time from **Time Ordered** and **Time Order Picked**.  
+4. Dropping rows with **null values**.  
+5. Encoding categorical variables using **label encoding**.  
 
-Feature Selection
+##  Feature Selection  
 
-Features were selected using SelectKBest to retain only the most significant predictors, as implemented in kbest.py.
+Feature selection was performed using **SelectKBest**, which retains only the most significant predictors.  
+The implementation is available in `kbest.py`.  
 
-Model Improvement
+##  Model Improvement  
 
-The following techniques were applied to improve model performance:
+The following techniques were applied to enhance model performance:  
+- **Hyperparameter Tuning**: Optimized model parameters using **GridSearchCV**.  
 
-    - Hyperparameter Tuning: Using GridSearchCV to optimize model parameters.
-    
-Command Line Interface (CLI)
+##  Command Line Interface (CLI)  
 
-To use the CLI for predictions:
+To use the CLI for predictions:  
 
-    1 Navigate to the project directory.
-    
-    2 Run the CLI script:
-    
-       python main.py
-       
-Follow the prompts to input the delivery parameters and obtain predictions.
-
-Model Evaluation Results
-
-     Model	                 MSE	      R² Score
-     
-Linear Regression	          42.80	        0.51
-
-Decision Tree	              41.14	        0.53
-
-Decision Tree (Bagging)   	21.67	        0.75
-
-Random Forest	              21.21        	0.75
-
-Elastic Net Regularization	47.35	        0.46
-
-LightGBM	                  16.88	        0.80
-
-XGBoost                    	18.41	        0.79
-
-
-The developed LightGBM model demonstrates promising accuracy and generalization capabilities, facilitating informed decision-making in the food delivery space to predict delivery time.
-
-Conclusion
-
-The LightGBM model demonstrates high accuracy and generalization, making it the most suitable for delivery time predictions in this context.
-
+1. Navigate to the project directory.  
+2. Run the CLI script:  
+   ```bash
+   python main.py
 
 --------
 
