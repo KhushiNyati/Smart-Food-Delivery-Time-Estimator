@@ -102,7 +102,7 @@ To use the CLI for predictions:
    ```bash
    python main.py
 
-Follow the promptsto input the delivery parametersna dobtain predictions.
+Follow the prompts to input the delivery parameters and obtain predictions.
 
 ## Model Evaluation Results  
 
