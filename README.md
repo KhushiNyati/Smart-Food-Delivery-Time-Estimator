@@ -51,7 +51,14 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+Swiggy.csv - https://raw.githubusercontent.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/refs/heads/main/swiggy.csv
 
---------
+Food-Delivery-Data-Cleaning - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Data_Cleaning.ipynb
+
+Food Delivery EDA - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_EDA.ipynb
+
+Data-clean-utils.py - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/data_clean_utils.py
+
+Food Delivery Baseline Mode -  https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Baseline_Model.ipynb
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
