@@ -102,7 +102,7 @@ The following models were trained and evaluated on the data:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Smart-Food-Delivery-Time-Estimator.git
+   git clone https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator.git
    cd Smart-Food-Delivery-Time-Estimator
 2. Install dependencies:
    ```bash
