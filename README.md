@@ -1,9 +1,32 @@
 Smart-Food-Delivery-Time-Estimator
 ==============================
 
-Build a Mchine Learning Project that can predict Food delivery Time in minutes
+# 🍽️ Smart Food Delivery Time Estimator
 
-Project Organization
+Smart Food Delivery Time Estimator is a machine learning-based project that predicts the estimated delivery time for food orders based on various real-world features. It is designed to help food delivery platforms improve customer satisfaction by providing more accurate delivery time estimates.
+
+## 🚀 Project Overview
+
+With the growing demand for online food delivery services, customers expect not only timely service but also accurate delivery time predictions. This project aims to build a robust model that can predict delivery time based on:
+
+- Weather conditions
+- Traffic density
+- Rider availability
+- Restaurant location
+- Delivery distance
+- Order preparation time
+
+## 🧠 Tech Stack
+
+- **Language:** Python
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Version Control:** Git, DVC
+- **IDE:** VS Code
+- **Model:** Regression model (e.g., Linear Regression, Random Forest, XGBoost)
+
+## 📁 Project Structure
+
+
 ------------
 
     ├── LICENSE
@@ -60,5 +83,25 @@ Food Delivery EDA - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Esti
 Data-clean-utils.py - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/data_clean_utils.py
 
 Food Delivery Baseline Mode -  https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Baseline_Model.ipynb
+
+Food Delivery Exp 1 drop vs impute.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Exp_1_drop_vs_impute.ipynb
+Comparing 2 Runs from 1 Experiment
+
+Food_Delivery_Exp_2_missing_indicator.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Exp_2_missing_indicator.ipynb
+Comparing 3 Runs from 1 Experiment
+
+Food Delivery Model Selection - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Model_Selection.ipynb
+
+Food_Delivery_LGBM_HP_Tuning - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_LGBM_HP_Tuning.ipynb
+two screenshots LGBM
+
+Food Delivery RF HP Tuning.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_RF_HP_Tuning.ipynb
+
+screenshot hp tuning
+
+Food Delivery Stacking Regressor HP Tuning.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Stacking_Regressor_HP_Tuning.ipynb
+
+Food Delivery Final Estimator - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Final_Estimator.ipynb
+
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
