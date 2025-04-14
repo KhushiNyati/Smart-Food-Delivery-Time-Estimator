@@ -3,26 +3,26 @@ Smart-Food-Delivery-Time-Estimator
 
 # 🍽️ Smart Food Delivery Time Estimator
 
-Smart Food Delivery Time Estimator is a machine learning-based project that predicts the estimated delivery time for food orders based on various real-world features. It is designed to help food delivery platforms improve customer satisfaction by providing more accurate delivery time estimates.
+Smart Food Delivery Time Estimator is a machine learning-based project that predicts the estimated delivery time for food orders. This model utilizes features such as weather, traffic density, restaurant location, and delivery distance to provide accurate predictions, improving customer experience in food delivery services.
 
 ## 🚀 Project Overview
 
-With the growing demand for online food delivery services, customers expect not only timely service but also accurate delivery time predictions. This project aims to build a robust model that can predict delivery time based on:
+The goal of this project is to estimate the delivery time of food orders based on various factors that influence delivery time. By leveraging machine learning models, the system can provide accurate delivery time predictions and optimize delivery routes for food delivery platforms.
 
-- Weather conditions
-- Traffic density
-- Rider availability
-- Restaurant location
-- Delivery distance
-- Order preparation time
+### Key Features:
+- **Prediction:** Delivery time estimation based on multiple features.
+- **Models Used:** Linear Regression, Random Forest, XGBoost, LightGBM, and Stacking Regressor.
+- **Data Cleaning:** Handling missing data, outlier detection, and feature engineering.
+- **Hyperparameter Tuning:** Extensive tuning of Random Forest, LightGBM, and Stacking Regressor models.
+- **Model Selection:** Choosing the best performing model based on evaluation metrics like MAE, RMSE, and R².
 
 ## 🧠 Tech Stack
 
 - **Language:** Python
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Libraries:** Pandas, NumPy, Scikit-learn, MLFlow, XGBoost, LightGBM, Matplotlib
 - **Version Control:** Git, DVC
 - **IDE:** VS Code
-- **Model:** Regression model (e.g., Linear Regression, Random Forest, XGBoost)
+- **Modeling:** Regression models, Hyperparameter tuning, Stacking models
 
 ## 📁 Project Structure
 
@@ -73,6 +73,46 @@ With the growing demand for online food delivery services, customers expect not 
     │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
+    
+## 📊 Model Performance
+
+The following models were trained and evaluated on the data:
+
+- **Linear Regression**
+- **Random Forest**
+- **XGBoost**
+- **LightGBM**
+- **Stacking Regressor**
+
+### Hyperparameter Tuning:
+- **Random Forest**: Optimized the number of trees (`n_estimators`), max depth, and other important hyperparameters.
+- **LightGBM**: Tuned parameters like `learning_rate`, `num_leaves`, and `max_depth`.
+- **Stacking Regressor**: Combined multiple models with tuned hyperparameters to improve prediction accuracy.
+
+## ✅ Features
+
+- **Data Cleaning**: Missing data handling, feature scaling, and outlier detection.
+- **Exploratory Data Analysis (EDA)**: In-depth analysis of the dataset to find insights and trends.
+- **Model Selection**: Comparison of different regression models using metrics like MAE, RMSE, and R².
+- **Hyperparameter Tuning**: Use of grid search and random search techniques for fine-tuning models.
+- **Final Estimator**: A stacked model that combines the best of Random Forest, XGBoost, and LightGBM.
+
+## 🏁 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Smart-Food-Delivery-Time-Estimator.git
+   cd Smart-Food-Delivery-Time-Estimator
+2. Install dependencies:
+   ```bash
+   pip install -r requirements-dev.txt
+3. Pull the dataset (via DVC):
+   ```bash
+   dvc pull
+   
+4. Run the Jupyter Notebooks for EDA, model training, and evaluation:
+
 
 Swiggy.csv - https://raw.githubusercontent.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/refs/heads/main/swiggy.csv
 
