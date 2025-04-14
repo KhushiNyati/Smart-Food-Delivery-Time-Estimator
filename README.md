@@ -125,7 +125,8 @@ Data-clean-utils.py - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Es
 Food Delivery Baseline Mode -  https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Baseline_Model.ipynb
 
 Food Delivery Exp 1 drop vs impute.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Exp_1_drop_vs_impute.ipynb
-Comparing 2 Runs from 1 Experiment
+![Screenshot 2025-04-14 000302](https://github.com/user-attachments/assets/07b06994-89a3-4868-a765-b1e5b577da4d)
+
 
 Food_Delivery_Exp_2_missing_indicator.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Exp_2_missing_indicator.ipynb
 Comparing 3 Runs from 1 Experiment
