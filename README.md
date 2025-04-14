@@ -129,16 +129,17 @@ Food Delivery Exp 1 drop vs impute.ipynb - https://github.com/KhushiNyati/Smart-
 
 
 Food_Delivery_Exp_2_missing_indicator.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Exp_2_missing_indicator.ipynb
-Comparing 3 Runs from 1 Experiment
+![Screenshot 2025-04-14 000113](https://github.com/user-attachments/assets/d9c14971-f3ed-499e-9dc1-0a3eac885089)
+
 
 Food Delivery Model Selection - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Model_Selection.ipynb
 
 Food_Delivery_LGBM_HP_Tuning - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_LGBM_HP_Tuning.ipynb
-two screenshots LGBM
+![Screenshot 2025-04-14 003254](https://github.com/user-attachments/assets/0bc4fa8e-c827-4d45-944e-d15e3ebd55aa)
+![Screenshot 2025-04-14 003309](https://github.com/user-attachments/assets/6d955e70-60a7-40bd-beae-a8a3b3ad56a9)
 
 Food Delivery RF HP Tuning.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_RF_HP_Tuning.ipynb
-
-screenshot hp tuning
+![Screenshot 2025-04-14 011526](https://github.com/user-attachments/assets/064e71d6-3bb5-428c-a361-d8337faa2f37)
 
 Food Delivery Stacking Regressor HP Tuning.ipynb - https://github.com/KhushiNyati/Smart-Food-Delivery-Time-Estimator/blob/main/Food_Delivery_Stacking_Regressor_HP_Tuning.ipynb
 
